@@ -14,6 +14,7 @@ public class MatricesParesImpares {
         m.imprima(matriz);
         m.pares(matriz);
         m.impares(matriz);
+        sc.close();
     }
 
 }
