@@ -8,12 +8,11 @@ public class MatricesParesImpares {
         int n = 0;
         System.out.println("por favor ingrese la dimension de la matriz");
         n = sc.nextInt();
-        Metodos m = new Metodos();
-        int [][] matriz = new int[n][n];
-       matriz = m.captura(n);
-        m.imprima(matriz);
-        m.pares(matriz);
-        m.impares(matriz);
+        Metodos metodos = new Metodos();
+        metodos.captura(n);  // Crear una matriz de nxn
+        metodos.imprima();   // Imprimir la matriz
+        metodos.pares();     // Imprimir los números pares
+        metodos.impares();   // Imprimir los números impares
         sc.close();
     }
 
