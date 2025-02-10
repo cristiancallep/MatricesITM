@@ -5,7 +5,7 @@ public class MatricesParesImpares {
 
     public static  void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int n = 0;
+        int n;
         System.out.println("por favor ingrese la dimension de la matriz");
         n = sc.nextInt();
         Metodos metodos = new Metodos();
